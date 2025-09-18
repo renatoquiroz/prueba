@@ -12,6 +12,7 @@ public class Main {
         Region regionMetropolitana = new Region( 13,"Metropolitana");
         Region regionArica = new Region(15, "Arica");
         Region regionMaule = new Region(7, "Maule");
+        Sucursal sucursalRegionMetropolitana = new Sucursal("Sucursal vitacura",regionMetropolitana,1);
 
     }
 }
